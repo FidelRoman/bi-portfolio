@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio de Dashboards | Fidel Roman</title>
+  <meta name="description" content="Portafolio personal de trabajos en Power BI, Tableau y Looker Studio por Fidel Roman" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="head">
+      <div class="brand">
+        <div class="logo">F</div>
+        <div>
+          <div>Fidel Roman</div>
+          <small class="title-sub">Portafolio de Dashboards</small>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.5 18a7.5 7.5 0 1 1 5.3-12.8A7.5 7.5 0 0 1 10.5 18Zm0 0 7 6" stroke="#93a0b5" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input id="search" type="search" placeholder="Buscar por título, tags, industria..." />
+        </div>
+        <div class="chips" id="filters">
+          <button class="chip active" data-filter="all"><span class="dot"></span>Todo</button>
+          <button class="chip" data-filter="powerbi"><span class="dot powerbi"></span>Power BI</button>
+          <button class="chip" data-filter="tableau"><span class="dot tableau"></span>Tableau</button>
+          <button class="chip" data-filter="looker"><span class="dot looker"></span>Looker Studio</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- <section id="intro">
+      <div class="pill">
+        <span class="stat">⚡ 100% prácticos</span> •
+        <span class="stat">🧠 Enfoque de negocio</span> •
+        <span class="stat">📊 Data real / simulada</span>
+      </div>
+    </section> -->
+
+    <!-- Galería -->
+    <section id="gallery" class="grid">
+
+      <!-- ====== CARD EXAMPLE 1 (Power BI) ====== -->
+      <article class="card" data-type="powerbi" data-tags="retail,ventas,kpi,margen" data-title="Ventas Retail LATAM - Power BI">
+        <div class="thumb">
+          <!-- Reemplaza con tu archivo real dentro de /assets -->
+          <img loading="lazy" src="assets/whatatrip.jpg" alt="Dashboard de Ventas Retail en Power BI" />
+          <span class="badge">Power BI</span>
+        </div>
+        <div class="body">
+          <div class="kicker">Retail • Ventas</div>
+          <div class="h3">Ventas LATAM — KPIs &amp; margen</div>
+        </div>
+        <div class="tags">
+          <span class="tag">DAX</span><span class="tag">Modelado estrella</span><span class="tag">RLS</span>
+        </div>
+        <div class="cta">
+          <a class="btn brand" href="#" target="_blank" rel="noopener">Ver demo</a>
+        </div>
+      </article>
+
+      <!-- ====== CARD EXAMPLE 2 (Tableau) ====== -->
+      <article class="card" data-type="tableau" data-tags="logistica,tiempos,geografia" data-title="Tiempos de Entrega - Tableau">
+        <div class="thumb">
+          <img loading="lazy" src="assets/tableau_tiempos_entrega.jpg" alt="Tableau: Tiempos de Entrega" />
+          <span class="badge">Tableau</span>
+        </div>
+        <div class="body">
+          <div class="kicker">Logística • Operaciones</div>
+          <div class="h3">Tiempos de entrega y heatmaps</div>
+        </div>
+        <div class="tags">
+          <span class="tag">LOD</span><span class="tag">Geocoding</span><span class="tag">Story</span>
+        </div>
+        <div class="cta">
+          <a class="btn brand" href="#" target="_blank" rel="noopener">Ver demo</a>
+        </div>
+      </article>
+
+      <!-- ====== CARD EXAMPLE 3 (Looker Studio) ====== -->
+      <article class="card" data-type="looker" data-tags="marketing,ads,atribuicion,seo" data-title="Marketing Performance - Looker Studio">
+        <div class="thumb">
+          <img loading="lazy" src="assets/looker_marketing_performance.jpg" alt="Looker Studio: Marketing Performance" />
+          <span class="badge">Looker Studio</span>
+        </div>
+        <div class="body">
+          <div class="kicker">Marketing • Adquisición</div>
+          <div class="h3">Embudo, CPA y atribución</div>
+        </div>
+        <div class="tags">
+          <span class="tag">Blending</span><span class="tag">GA4</span><span class="tag">BigQuery</span>
+        </div>
+        <div class="cta">
+          <a class="btn brand" href="#" target="_blank" rel="noopener">Ver demo</a>
+        </div>
+      </article>
+
+      <!-- ====== CARD EXAMPLE 4 (Power BI) ====== -->
+      <article class="card" data-type="powerbi" data-tags="finanzas,ingresos,costos" data-title="P&amp;L Ejecutivo - Power BI">
+        <div class="thumb">
+          <img loading="lazy" src="assets/powerbi_pl_ejecutivo.jpg" alt="Power BI: Estado de Resultados" />
+          <span class="badge">Power BI</span>
+        </div>
+        <div class="body">
+          <div class="kicker">Finanzas • P&amp;L</div>
+          <div class="h3">Estado de resultados ejecutivo</div>
+        </div>
+        <div class="tags">
+          <span class="tag">DAX avanzada</span><span class="tag">What‑If</span><span class="tag">Bookmarks</span>
+        </div>
+        <div class="cta">
+          <a class="btn brand" href="#" target="_blank" rel="noopener">Ver demo</a>
+        </div>
+      </article>
+
+      <!-- ====== CARD EXAMPLE 5 (Tableau) ====== -->
+      <article class="card" data-type="tableau" data-tags="rrhh,ausentismo" data-title="RRHH Ausentismo - Tableau">
+        <div class="thumb">
+          <img loading="lazy" src="assets/tableau_rrhh_ausentismo.jpg" alt="Tableau: Ausentismo RRHH" />
+          <span class="badge">Tableau</span>
+        </div>
+        <div class="body">
+          <div class="kicker">RRHH • People Analytics</div>
+          <div class="h3">Ausentismo y desempeño</div>
+        </div>
+        <div class="tags">
+          <span class="tag">Parameters</span><span class="tag">Level of Detail</span>
+        </div>
+        <div class="cta">
+          <a class="btn brand" href="#" target="_blank" rel="noopener">Ver demo</a>
+        </div>
+      </article>
+
+      <!-- ====== CARD EXAMPLE 6 (Looker Studio) ====== -->
+      <article class="card" data-type="looker" data-tags="ecommerce,cohorte,retencion" data-title="Cohortes Ecommerce - Looker Studio">
+        <div class="thumb">
+          <img loading="lazy" src="assets/looker_cohortes_ecommerce.jpg" alt="Looker Studio: Cohortes Ecommerce" />
+          <span class="badge">Looker Studio</span>
+        </div>
+        <div class="body">
+          <div class="kicker">Ecommerce • Retención</div>
+          <div class="h3">Cohortes y LTV</div>
+        </div>
+        <div class="tags">
+          <span class="tag">Data Blending</span><span class="tag">Reglas de negocio</span>
+        </div>
+        <div class="cta">
+          <a class="btn brand" href="#" target="_blank" rel="noopener">Ver demo</a>
+        </div>
+      </article>
+
+    </section>
+
+    <p class="footer">¿Quieres uno así para tu negocio? <a href="mailto:fidel.roman@outlook.com">Escríbeme</a> • Lima, Perú</p>
+  </main>
+
+  <!-- Lightbox -->
+  <dialog id="lightbox">
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-wrap">
+      <img class="lightbox-img" alt="Vista ampliada" />
+      <button class="lightbox-close" data-close>Cerrar ✕</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

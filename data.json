@@ -1,0 +1,50 @@
+[
+  {
+    "type": "powerbi",
+    "title": "Ventas LATAM — KPIs & margen",
+    "kicker": "Retail • Ventas",
+    "image": "assets/whatatrip.jpg",
+    "demoUrl": "#",
+    "tags": ["DAX", "Modelado estrella", "RLS"]
+  },
+  {
+    "type": "tableau",
+    "title": "Tiempos de entrega y heatmaps",
+    "kicker": "Logística • Operaciones",
+    "image": "assets/tableau_tiempos_entrega.jpg",
+    "demoUrl": "#",
+    "tags": ["LOD", "Geocoding", "Story"]
+  },
+  {
+    "type": "looker",
+    "title": "Embudo, CPA y atribución",
+    "kicker": "Marketing • Adquisición",
+    "image": "assets/looker_marketing_performance.jpg",
+    "demoUrl": "#",
+    "tags": ["Blending", "GA4", "BigQuery"]
+  },
+  {
+    "type": "powerbi",
+    "title": "Estado de resultados ejecutivo",
+    "kicker": "Finanzas • P&L",
+    "image": "assets/powerbi_pl_ejecutivo.jpg",
+    "demoUrl": "#",
+    "tags": ["DAX avanzada", "WhatIf", "Bookmarks"]
+  },
+  {
+    "type": "tableau",
+    "title": "Ausentismo y desempeño",
+    "kicker": "RRHH • People Analytics",
+    "image": "assets/tableau_rrhh_ausentismo.jpg",
+    "demoUrl": "#",
+    "tags": ["Parameters", "Level of Detail"]
+  },
+  {
+    "type": "looker",
+    "title": "Cohortes y LTV",
+    "kicker": "Ecommerce • Retención",
+    "image": "assets/looker_cohortes_ecommerce.jpg",
+    "demoUrl": "#",
+    "tags": ["Data Blending", "Reglas de negocio"]
+  }
+]
