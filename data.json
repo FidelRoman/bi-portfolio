@@ -1,11 +1,11 @@
 [
   {
     "type": "powerbi",
-    "title": "Ventas LATAM — KPIs & margen",
-    "kicker": "Retail • Ventas",
-    "image": "assets/whatatrip.jpg",
-    "demoUrl": "#",
-    "tags": ["DAX", "Modelado estrella", "RLS"]
+    "title": "Real State Lima - Precio de Departamentos",
+    "kicker": "Real State • Ventas",
+    "image": "assets/real-state-lima.png",
+    "demoUrl": "https://app.powerbi.com/view?r=eyJrIjoiYzY4OTMxNGMtNzJmNS00MDUwLWI0MGQtYWJlZTU2ODhlMjcxIiwidCI6IjBlODE1YmQzLTgyNDEtNDk2My1hNzhjLTQzYTIwYjk4YjkxYiIsImMiOjR9",
+    "tags": ["Web Scraping", "Modelado estrella", "RLS"]
   },
   {
     "type": "tableau",
