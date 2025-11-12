@@ -1,33 +1,33 @@
 [
   {
     "type": "powerbi",
-    "title": "Real State Lima - Precio de Departamentos",
+    "title": "Precio de Departamentos en Lima",
     "kicker": "Real State • Ventas",
-    "image": "assets/real-state-lima.png",
+    "image": "assets/powerbi-real-state-ventas.png",
     "demoUrl": "https://app.powerbi.com/view?r=eyJrIjoiYzY4OTMxNGMtNzJmNS00MDUwLWI0MGQtYWJlZTU2ODhlMjcxIiwidCI6IjBlODE1YmQzLTgyNDEtNDk2My1hNzhjLTQzYTIwYjk4YjkxYiIsImMiOjR9",
-    "tags": ["Web Scraping", "Modelado estrella", "RLS"]
+    "tags": ["Web Scraping", "Geolocalización", "Tooltips"]
   },
   {
     "type": "tableau",
-    "title": "Tiempos de entrega y heatmaps",
-    "kicker": "Logística • Operaciones",
-    "image": "assets/tableau_tiempos_entrega.jpg",
-    "demoUrl": "#",
-    "tags": ["LOD", "Geocoding", "Story"]
+    "title": "Minsa - Salud Mental",
+    "kicker": "Salud • Monitoreo",
+    "image": "assets/tableau-salud-mental.png",
+    "demoUrl": "https://public.tableau.com/app/profile/fidel.roman/viz/shared/BTJJD4K5J",
+    "tags": ["Datos Abiertos", "Bar Charts", "Geolocalización"]
   },
   {
     "type": "looker",
-    "title": "Embudo, CPA y atribución",
-    "kicker": "Marketing • Adquisición",
-    "image": "assets/looker_marketing_performance.jpg",
-    "demoUrl": "#",
-    "tags": ["Blending", "GA4", "BigQuery"]
+    "title": "Day Trading Forex",
+    "kicker": "Finanzas • Forex",
+    "image": "assets/looker-finanzas-forex.png",
+    "demoUrl": "https://lookerstudio.google.com/u/2/reporting/c55bc583-e09a-4b32-a702-89366923bd95/page/exNf",
+    "tags": ["Google Sheets", "APIs", "Data Blending"]
   },
   {
     "type": "powerbi",
     "title": "Estado de resultados ejecutivo",
-    "kicker": "Finanzas • P&L",
-    "image": "assets/powerbi_pl_ejecutivo.jpg",
+    "kicker": "Real State • Operaciones",
+    "image": "assets/powerbi-real-state-operaciones.jpg",
     "demoUrl": "#",
     "tags": ["DAX avanzada", "WhatIf", "Bookmarks"]
   },
@@ -40,11 +40,11 @@
     "tags": ["Parameters", "Level of Detail"]
   },
   {
-    "type": "looker",
-    "title": "Cohortes y LTV",
-    "kicker": "Ecommerce • Retención",
-    "image": "assets/looker_cohortes_ecommerce.jpg",
+    "type": "powerbi",
+    "title": "Reporte de Operaciones de Publicidad",
+    "kicker": "Publicidad • Operaciones",
+    "image": "assets/powerbi-publicidad.png",
     "demoUrl": "#",
-    "tags": ["Data Blending", "Reglas de negocio"]
+    "tags": ["SQL", "Bigquery", "RLS"]
   }
 ]
