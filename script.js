@@ -17,6 +17,7 @@ async function loadGallery() {
       article.dataset.type = item.type || '';
       article.dataset.title = item.title || '';
       article.dataset.tags = (item.tags || []).join(',');
+      article.dataset.kicker = item.kicker || '';
 
       article.innerHTML = `
         <div class="thumb">
@@ -53,7 +54,13 @@ function applyFilters() {
   const cards = document.querySelectorAll('.card');
   cards.forEach((card) => {
     const type = card.dataset.type || '';
-    const text = ((card.dataset.title || '') + ' ' + (card.dataset.tags || '')).toLowerCase();
+    const text = (
+      (card.dataset.title || '') +
+      ' ' +
+      (card.dataset.tags || '') +
+      ' ' +
+      (card.dataset.kicker || '')
+    ).toLowerCase();
     const passType = active === 'all' || type === active;
     const passQuery = !q || text.includes(q);
     card.classList.toggle('hide', !(passType && passQuery));
