@@ -5,7 +5,11 @@
     "kicker": "Real State • Ventas",
     "image": "assets/powerbi-real-state-ventas.png",
     "demoUrl": "https://app.powerbi.com/view?r=eyJrIjoiYzY4OTMxNGMtNzJmNS00MDUwLWI0MGQtYWJlZTU2ODhlMjcxIiwidCI6IjBlODE1YmQzLTgyNDEtNDk2My1hNzhjLTQzYTIwYjk4YjkxYiIsImMiOjR9",
-    "tags": ["Web Scraping", "Geolocalización", "Tooltips"]
+    "tags": [
+      "Web Scraping",
+      "Geolocalización",
+      "Tooltips"
+    ]
   },
   {
     "type": "tableau",
@@ -13,7 +17,11 @@
     "kicker": "Salud • Monitoreo",
     "image": "assets/tableau-salud-mental.png",
     "demoUrl": "https://public.tableau.com/app/profile/fidel.roman/viz/shared/BTJJD4K5J",
-    "tags": ["Datos Abiertos", "Bar Charts", "Geolocalización"]
+    "tags": [
+      "Datos Abiertos",
+      "Bar Charts",
+      "Geolocalización"
+    ]
   },
   {
     "type": "looker",
@@ -21,7 +29,11 @@
     "kicker": "Finanzas • Forex",
     "image": "assets/looker-finanzas-forex.png",
     "demoUrl": "https://lookerstudio.google.com/u/2/reporting/c55bc583-e09a-4b32-a702-89366923bd95/page/exNf",
-    "tags": ["Google Sheets", "APIs", "Data Blending"]
+    "tags": [
+      "Google Sheets",
+      "APIs",
+      "Data Blending"
+    ]
   },
   {
     "type": "powerbi",
@@ -29,15 +41,23 @@
     "kicker": "Real State • Operaciones",
     "image": "assets/powerbi-real-state-operaciones.jpg",
     "demoUrl": "#",
-    "tags": ["DAX avanzada", "WhatIf", "Bookmarks"]
+    "tags": [
+      "DAX avanzada",
+      "WhatIf",
+      "Bookmarks"
+    ]
   },
   {
     "type": "tableau",
-    "title": "Ausentismo y desempeño",
-    "kicker": "RRHH • People Analytics",
-    "image": "assets/tableau_rrhh_ausentismo.jpg",
-    "demoUrl": "#",
-    "tags": ["Parameters", "Level of Detail"]
+    "title": "Maven Roasters",
+    "kicker": "Sales • Operaciones",
+    "image": "assets/tableau-maven-roasters.png",
+    "demoUrl": "https://public.tableau.com/app/profile/fidel.roman/viz/MavenRoasters-TableauCourse/MavenRoasters",
+    "tags": [
+      "Segmentation",
+      "Multi-Dimensions",
+      "Multi-Metrics"
+    ]
   },
   {
     "type": "powerbi",
@@ -45,6 +65,10 @@
     "kicker": "Publicidad • Operaciones",
     "image": "assets/powerbi-publicidad.png",
     "demoUrl": "#",
-    "tags": ["SQL", "Bigquery", "RLS"]
+    "tags": [
+      "SQL",
+      "Bigquery",
+      "RLS"
+    ]
   }
 ]

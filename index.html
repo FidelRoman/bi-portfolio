@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portafolio de Dashboards | Fidel Roman</title>
-  <meta name="description" content="Portafolio personal de trabajos en Power BI, Tableau y Looker Studio por Fidel Roman" />
+  <meta name="description"
+    content="Portafolio personal de trabajos en Power BI, Tableau y Looker Studio por Fidel Roman" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header>
     <div class="head">
@@ -21,7 +24,10 @@
       </div>
       <div class="controls">
         <div class="search">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.5 18a7.5 7.5 0 1 1 5.3-12.8A7.5 7.5 0 0 1 10.5 18Zm0 0 7 6" stroke="#93a0b5" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M10.5 18a7.5 7.5 0 1 1 5.3-12.8A7.5 7.5 0 0 1 10.5 18Zm0 0 7 6" stroke="#93a0b5" stroke-width="1.6"
+              stroke-linecap="round" />
+          </svg>
           <input id="search" type="search" placeholder="Buscar por título, tags, industria..." />
         </div>
         <div class="chips" id="filters">
@@ -47,15 +53,18 @@
     <section id="gallery" class="grid">
       <!-- Las tarjetas se generan dinámicamente desde data.json por script.js -->
     </section>
-    <noscript><p class="footer">Activa JavaScript para ver el portafolio.</p></noscript>
+    <noscript>
+      <p class="footer">Activa JavaScript para ver el portafolio.</p>
+    </noscript>
 
-    <p class="footer">¿Quieres uno así para tu negocio? <a href="mailto:fidel.roman@outlook.com">Escríbeme</a> • Lima, Perú</p>
+    <p class="footer">¿Quieres uno así para tu negocio? <a href="mailto:fidel.roman@outlook.com">Escríbeme</a> • Lima,
+      Perú</p>
   </main>
 
   <!-- Lightbox -->
   <dialog id="lightbox">
     <div class="lightbox-backdrop" data-close></div>
-    <div class="lightbox-wrap">
+    <div class="lightbox-wrap" data-close>
       <img class="lightbox-img" alt="Vista ampliada" />
       <button class="lightbox-close" data-close>Cerrar ✕</button>
     </div>
@@ -63,4 +72,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
