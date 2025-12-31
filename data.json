@@ -2,7 +2,7 @@
   {
     "type": "powerbi",
     "title": "Precio de Departamentos en Lima",
-    "kicker": "Real State • Ventas",
+    "kicker": "Real Estate • Ventas",
     "image": "assets/powerbi-real-state-ventas.png",
     "demoUrl": "https://app.powerbi.com/view?r=eyJrIjoiYzY4OTMxNGMtNzJmNS00MDUwLWI0MGQtYWJlZTU2ODhlMjcxIiwidCI6IjBlODE1YmQzLTgyNDEtNDk2My1hNzhjLTQzYTIwYjk4YjkxYiIsImMiOjR9",
     "tags": [
@@ -38,7 +38,7 @@
   {
     "type": "powerbi",
     "title": "Estado de resultados ejecutivo",
-    "kicker": "Real State • Operaciones",
+    "kicker": "Real Estate • Operaciones",
     "image": "assets/powerbi-real-state-operaciones.jpg",
     "demoUrl": "#",
     "tags": [
