@@ -28,6 +28,8 @@ body {
     radial-gradient(1200px 400px at 80% -10%, rgba(251, 203, 21, .10), transparent 60%),
     radial-gradient(900px 300px at -10% 10%, rgba(45, 108, 223, .12), transparent 60%),
     var(--bg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -49,7 +51,7 @@ header {
   top: 0;
   z-index: 20;
   backdrop-filter: saturate(120%) blur(8px);
-  background: linear-gradient(to bottom, rgba(14, 17, 22, .85), rgba(14, 17, 22, .55));
+  background: rgba(14, 17, 22, 0.95);
   border-bottom: 1px solid #20263a;
 }
 
@@ -70,6 +72,7 @@ header {
   padding: 0 20px 18px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.04);
   padding-top: 14px;
