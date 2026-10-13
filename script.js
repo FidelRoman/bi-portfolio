@@ -18,21 +18,32 @@ async function loadGallery() {
       article.dataset.title = item.title || '';
       article.dataset.tags = (item.tags || []).join(',');
       article.dataset.kicker = item.kicker || '';
+      article.dataset.description = item.description || '';
+
+      const isWebApp = item.type === 'webapp';
+      const thumbnail = isWebApp && !item.image
+        ? `<div class="thumb thumb-app">
+            <span class="app-name">${item.title}</span>
+            <span class="app-domain">${new URL(item.demoUrl).hostname}</span>
+            <span class="badge">App web</span>
+          </div>`
+        : `<div class="thumb${isWebApp ? ' thumb-app-image' : ''}">
+            <img loading="lazy" src="${item.image}" alt="${item.title || 'Proyecto'}" />
+            <span class="badge">${isWebApp ? 'App web' : (item.type ? (item.type.charAt(0).toUpperCase() + item.type.slice(1)) : '')}</span>
+          </div>`;
 
       article.innerHTML = `
-        <div class="thumb">
-          <img loading="lazy" src="${item.image}" alt="${item.title || 'Proyecto'}" />
-          <span class="badge">${item.type ? (item.type.charAt(0).toUpperCase() + item.type.slice(1)) : ''}</span>
-        </div>
+        ${thumbnail}
         <div class="body">
           <div class="kicker">${item.kicker || ''}</div>
           <div class="h3">${item.title || ''}</div>
+          ${item.description ? `<p class="description">${item.description}</p>` : ''}
         </div>
         <div class="tags">
           ${(item.tags || []).map((t) => `<span class="tag">${t}</span>`).join('')}
         </div>
         <div class="cta">
-          <a class="btn brand" href="${item.demoUrl || '#'}" target="_blank" rel="noopener">Ver demo</a>
+          <a class="btn brand" href="${item.demoUrl || '#'}" target="_blank" rel="noopener">${isWebApp ? 'Abrir app' : 'Ver demo'}</a>
         </div>
       `;
       container.appendChild(article);
@@ -59,7 +70,9 @@ function applyFilters() {
       ' ' +
       (card.dataset.tags || '') +
       ' ' +
-      (card.dataset.kicker || '')
+      (card.dataset.kicker || '') +
+      ' ' +
+      (card.dataset.description || '')
     ).toLowerCase();
     const passType = active === 'all' || type === active;
     const passQuery = !q || text.includes(q);

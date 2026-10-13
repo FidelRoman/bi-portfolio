@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T17:15:56.934Z",
+        "reason": "Codex: the closed lightbox receives the clicked image src in script.js before showModal; it is not a broken gallery image."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T17:16:43.903Z",
+        "reason": "Codex: preserve the existing portfolio typography for the scoped request to add five projects."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-10-13T17:16:43.940Z",
+        "reason": "Codex: preserve the existing portfolio typography for the scoped request to add five projects."
+      }
+    ]
+  }
+}

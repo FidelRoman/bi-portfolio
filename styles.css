@@ -252,6 +252,10 @@ header {
   background: #00ab6b
 }
 
+.dot.webapp {
+  background: #a5b4fc;
+}
+
 .grid {
   margin-top: 22px;
   display: grid;
@@ -288,6 +292,43 @@ header {
 
 .card:hover .thumb img {
   transform: scale(1.06)
+}
+
+.thumb-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 28px 24px 52px;
+  background: var(--panel);
+}
+
+.app-name {
+  color: var(--text);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.thumb-app-image img,
+.card:hover .thumb-app-image img {
+  object-fit: contain;
+  transform: none;
+  filter: none;
+}
+
+.app-domain {
+  color: var(--muted);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.description {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .badge {

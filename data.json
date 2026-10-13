@@ -70,5 +70,50 @@
       "Bigquery",
       "RLS"
     ]
+  },
+  {
+    "type": "webapp",
+    "title": "PiscinaLibre",
+    "image": "assets/app-piscinalibre.png",
+    "kicker": "Deportes • Piscinas",
+    "description": "App para encontrar piscinas y consultar horarios, precios y opciones de reserva.",
+    "demoUrl": "https://piscinalibre.com/",
+    "tags": ["Piscinas", "Natación", "Búsqueda"]
+  },
+  {
+    "type": "webapp",
+    "title": "Departamentos en Perú",
+    "image": "assets/app-departamentos.png",
+    "kicker": "Real Estate • Departamentos",
+    "description": "App para consultar departamentos en Perú.",
+    "demoUrl": "https://fidelroman.github.io/real-state-scrapper-peru/",
+    "tags": ["Departamentos", "Inmuebles", "Perú"]
+  },
+  {
+    "type": "webapp",
+    "title": "WKT Studio",
+    "image": "assets/app-wkt-studio.png",
+    "kicker": "Geografía • Polígonos",
+    "description": "App para crear polígonos.",
+    "demoUrl": "https://wktstudio.com/",
+    "tags": ["Polígonos", "Mapas", "WKT"]
+  },
+  {
+    "type": "webapp",
+    "title": "RIE Centro",
+    "image": "assets/app-rie-centro.png",
+    "kicker": "Salud • Terapia integral",
+    "description": "Sitio web de RIE Centro, un centro de terapia integral.",
+    "demoUrl": "https://rie-centro.vercel.app/",
+    "tags": ["Terapia integral", "Salud", "RIE Centro"]
+  },
+  {
+    "type": "webapp",
+    "title": "Bit CRM",
+    "image": "assets/app-bit-crm.png",
+    "kicker": "Ventas • WhatsApp",
+    "description": "CRM con envío de mensajes masivos por WhatsApp y creación de plantillas.",
+    "demoUrl": "https://bit-crm-xi.vercel.app/",
+    "tags": ["CRM", "WhatsApp", "Mensajes masivos", "Plantillas"]
   }
 ]
